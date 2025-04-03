@@ -1,0 +1,19 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+# This model initially had no columns defined. If you add columns to the
+# model remove the "{}" from the fixture names and add the columns immediately
+# below each fixture, per the syntax in the comments below
+#
+one:
+  content: "Hello, this is a test message"
+  token_count: 7
+  message_type: user
+  position: 1
+  active: true
+
+two:
+  content: "This is another test message"
+  token_count: 6
+  message_type: ai
+  position: 2
+  active: false

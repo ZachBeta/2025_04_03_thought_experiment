@@ -2,13 +2,13 @@
 
 ## Initial Setup
 - [ ] Project Configuration
-  - [ ] Initialize Rails project
-  - [ ] Configure SQLite database
-  - [ ] Add Bulma CSS framework
-  - [ ] Setup Hotwire
-  - [ ] Configure esbuild
-  - [ ] Setup Git repository structure
-  - [ ] Create initial .gitignore
+  - [x] Initialize Rails project
+  - [x] Configure SQLite database
+  - [x] Add Tailwind CSS framework
+  - [x] Setup Hotwire
+  - [x] Configure esbuild
+  - [x] Setup Git repository structure
+  - [x] Create initial .gitignore
 
 ## Database Design
 - [ ] Create Migrations

@@ -1,0 +1,30 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+# This model initially had no columns defined. If you add columns to the
+# model remove the "{}" from the fixture names and add the columns immediately
+# below each fixture, per the syntax in the comments below
+#
+one:
+  current_stage: welcome
+  completed_steps: {}
+  session_id: session-123
+# column: value
+#
+two:
+  current_stage: memory_basics
+  completed_steps:
+    welcome: ["intro", "basics"]
+  session_id: session-456
+# column: value
+
+three:
+  current_stage: completion
+  completed_steps:
+    welcome: ["intro", "basics"]
+    memory_basics: ["concept", "practice", "quiz"]
+    token_counting: ["intro", "exercise"]
+    context_window: ["theory", "demo", "practice"]
+    memory_management: ["intro", "strategies", "practice", "review"]
+    advanced_techniques: ["patterns", "optimization", "mastery"]
+    completion: ["final"]
+  session_id: session-789
