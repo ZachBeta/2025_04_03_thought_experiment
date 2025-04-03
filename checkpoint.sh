@@ -1,5 +1,7 @@
 #! /bin/bash
 
+set -e
+
 # commit, default "checkpoint", prefer args
 commit_message="checkpoint"
 if [ -n "$1" ]; then
